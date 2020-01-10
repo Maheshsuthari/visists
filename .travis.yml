@@ -6,6 +6,4 @@ before_install:
   - docker build -t travisci -f Dockerfile .
 deploy:
   provider: azure_web_apps
-  skip_cleanup: true
-  on:
-    branch: master
+  
