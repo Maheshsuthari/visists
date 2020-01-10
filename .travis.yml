@@ -3,7 +3,7 @@ services:
   - docker
 languages: node_js
 before_install:
-  - docker build -t maheshs -f Dockerfile .
+  - docker build -t travisci -f Dockerfile .
 deploy:
   provider: azure_web_apps
   skip_cleanup: true
