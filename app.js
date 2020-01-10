@@ -23,7 +23,7 @@ RedisStore['hits'] = 0;
 app.get('/', (req, res) => {
   RedisStore['hits']++;
   const num = RedisStore['hits'];
-  res.send(`Hello Hosting & Cloud!<br><p>Please click on url only once<br></p><br><p>Number of guys intrested outing ${num} Candidates.</p>`);
+  res.send(`Hello Cloud!<br><p>Please click on url only once<br></p><br><p>Number of guys intrested outing ${num} Candidates.</p>`);
 });
 
 app.listen(3000, () => {
