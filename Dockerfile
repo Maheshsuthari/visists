@@ -10,4 +10,5 @@ COPY . .
 
 CMD ["npm", "run", "start"]
 
-CMD ["npm", "run". "test"]
+FROM redis
+
